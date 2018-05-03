@@ -177,7 +177,7 @@ local function onCollision( event )
             -- Table of emitter parameters
 			local emitterParams = {
 			    startColorAlpha = 1,
-			    startParticleSizeVariance = 530.47,
+			    startParticleSizeVariance = 250,
 			    startColorGreen = 0.3031555,
 			    yCoordFlipped = -1,
 			    blendFuncSource = 770,
@@ -187,19 +187,19 @@ local function onCollision( event )
 			    finishColorBlue = 0.3699196,
 			    finishColorGreen = 0.5443883,
 			    blendFuncDestination = 1,
-			    startParticleSize = 500.95,
+			    startParticleSize = 400.95,
 			    startColorRed = 0.8373094,
 			    textureFileName = "./assets/sprites/fire.png",
 			    startColorVarianceAlpha = 1,
 			    maxParticles = 256,
-			    finishParticleSize = 640,
+			    finishParticleSize = 540,
 			    duration = 0.25,
 			    finishColorRed = 1,
 			    maxRadiusVariance = 72.63,
-			    finishParticleSizeVariance = 640,
+			    finishParticleSizeVariance = 250,
 			    gravityy = -671.05,
 			    speedVariance = 90.79,
-			    tangentialAccelVariance = -920.11,
+			    tangentialAccelVariance = -420.11,
 			    angleVariance = -142.62,
 			    angle = -244.11
 			}
